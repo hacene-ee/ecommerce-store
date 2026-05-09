@@ -11,7 +11,7 @@ export default function App() {
       </nav>
 
       <section className="hero">
-        <h1>Modern Tech Store</h1>
+        <h1>Modern ZOHRA Tech Store</h1>
         <p>Discover premium products</p>
         <button>Shop Now</button>
       </section>
