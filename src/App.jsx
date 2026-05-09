@@ -1,24 +1,35 @@
+import ProductCard from "./components/ProductCard";
+import products from "./data/products";
 import "./App.css";
 
-import ProductCard from "./components/ProductCard";
-
-import products from "./data/products";
-
-export default function App() {  
-
+export default function App() {
   return (
-  <div className="app">
-    <h1>My Shop</h1>
+    <div className="app">
 
-    <div className="products-grid">
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          name={product.name}
-          price={product.price}
-        />
-      ))}
+      <nav className="navbar">
+        <h2>Hacene Shop</h2>
+      </nav>
+
+      <section className="hero">
+        <h1>Modern Tech Store</h1>
+        <p>Discover premium products</p>
+        <button>Shop Now</button>
+      </section>
+
+      <section className="products-section">
+        <h2>Featured Products</h2>
+
+        <div className="products-grid">
+          {products.map((product) => (
+            <ProductCard
+              key={product.id}
+              name={product.name}
+              price={product.price}
+            />
+          ))}
+        </div>
+      </section>
+
     </div>
-  </div>
-);
+  );
 }
