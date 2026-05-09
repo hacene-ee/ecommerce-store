@@ -52,6 +52,12 @@ body {
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
 }
 
 .product-image {
@@ -60,4 +66,10 @@ body {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
+
+   transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
 }
