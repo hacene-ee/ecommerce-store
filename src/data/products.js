@@ -1,3 +1,8 @@
+import shoesImg from "../assets/images/pexels-chuck-8473534.jpg";
+import watchImg from "../assets/images/watch.jpg";
+import headphonesImg from "../assets/images/headphones.jpg";
+
+
 const products = [
   {
     id: 1,
