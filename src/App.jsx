@@ -1,3 +1,5 @@
+import "./App.css";
+
 import ProductCard from "./components/ProductCard";
 
 import products from "./data/products";
@@ -5,7 +7,7 @@ import products from "./data/products";
 export default function App() {  
 
   return (
-  <div>
+  <div className="app">
     <h1>My Shop</h1>
 
     <div className="products-grid">
