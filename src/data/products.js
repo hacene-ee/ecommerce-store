@@ -1,9 +1,9 @@
-import shoesImg from "../assets/images/pexels-chuck-8473534.jpg";
+import shoesImg from "../assets/images/shoes.jpg";
 
  
- import watchImg from "../assets/images/luan-fonseca-RRcr_q1O3po-unsplash.jpg";
- import headphonesImg from "../assets/images/radoslav-bali-tkRrmYoN2to-unsplash.jpg";
- import LaptopImg from "../assets/images/radoslav-bali-tkRrmYoN2to-unsplash.jpg";
+ import watchImg from "../assets/images/watch.jpg";
+ import headphonesImg from "../assets/images/headphones.jpg";
+ import LaptopImg from "../assets/images/Laptop.jpg";
  
 
 
